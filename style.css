@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 159);
+}
+
+
+header {
+    background-color: rgb(255, 177, 88);
+    text-align: center;
+    font-family: 'Akaya Kanadaka';
+    text-transform: uppercase;
+    margin-top: -3vh;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    text-shadow: red 7px 0px;
+}
+
+
+
+nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(255, 255, 125);
+    border: 2px solid red;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+li {
+    margin-right: 1%;
+    display: inline;
+    border: red 2px solid;
+    background-color: rgb(255, 177, 88);
+    padding: 0.2%;
+    color: white;
+    font-weight: 600;
+}
+
+
+li:hover {
+
+    background-color: rgb(255, 71, 38);
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main.first {
+    border-bottom: 45px solid rgb(255, 177, 88);
+    height: 90vh;
+}
+
+main.nobottom {
+    border-bottom: 0px solid rgb(255, 177, 88);
+}
+
+section.top {
+    padding-top: 1.5%;
+    background-image: url(img/naranja2.svg);
+    background-size: 1.5%;
+    background-repeat: repeat-x;
+}
+
+section.bottom {
+    background-image: url(img/naranja2.svg);
+    background-size: 2%;
+    background-repeat: repeat-x;
+    background-position: right bottom;
+    padding-bottom: 2%;
+    margin-top: 22%;
+}
+
+iframe { 
+    width: 57%;
+    float: left;
+    padding-bottom: 2%;
+}
+
+div.aboutus {
+    position: absolute;
+    margin-top: 10%;
+    letter-spacing: 0px;
+    width: 35%;
+    height: 0%;
+    margin-left: 56%;
+    background-color:rgb(255, 177, 88);
+    color: white;
+
+}
+
+div {
+    width: 35%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+div.dos:hover{
+    z-index: 3;
+}
+
+div.tres:hover{
+    z-index: 3;
+}
+
+
+div.uno{
+    background-color: rgb(255, 177, 88) ;
+    width: 35%;
+    text-align: center;
+    margin-left: 27%;
+    color: red ;
+    border: solid red 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 2;
+    
+}
+
+span {
+    text-decoration: underline;
+}
+
+div.dos{
+    position: absolute;
+    text-align: left;
+    background-color: rgb(249, 255, 169) ;
+    margin-left: 10%;
+    margin-top: -5%;
+    color: orange ;
+    border: solid rgb(202, 221, 27) 3px;
+
+}
+
+div.tres{
+    text-align: right;
+    letter-spacing: 0px;
+    background-color: rgb(199, 233, 253) ;
+    margin-left: 54%;
+    margin-top: -4.5%;
+    color: orange ;
+    padding-bottom: 13%;
+    border: solid rgb(89, 194, 255) 3px;
+    position: absolute;
+}
+
+
+footer {
+    background-color: rgb(255, 255, 94);
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    padding: 0.5%;
+    clear: both;
+}
